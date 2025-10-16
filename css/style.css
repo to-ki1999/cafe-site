@@ -30,7 +30,15 @@ header {
     padding: 0 30px;
 }
 
+.item-wrapper{
+    padding: 0 30px;
+}
+
 .logo {
+    width: 100px;
+}
+
+.item-logo{
     width: 100px;
 }
 
@@ -363,10 +371,6 @@ footer h4 {
 }
 
 @media (max-width : 767px) {
-
-    .item-logo{
-        margin: 30px 0 0 30px;
-    }
 
     .item-logo img{
         width: 100px;
