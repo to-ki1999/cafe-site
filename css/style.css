@@ -492,7 +492,24 @@ footer h4 {
     margin-bottom: 30px;
 }
 
+.menu-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.menu-text{
+    max-width: 100%;
+}
+
+.menu-text h2{
+    margin-bottom: 20px;
+}
+
 .menu-item{
+    display: block;
+}
+
+.item{
     display: block;
 }
 
@@ -526,5 +543,21 @@ footer h4 {
 
 .access-info {
     width: 100%;
+}
+
+.main-text {
+    position: static;
+    color: rgb(0, 0, 0);
+    font-size: 1.75rem;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: unset;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mainvisual img{
+    object-fit: cover;
+    height: 50vh;
+    margin-bottom: 20px;
 }
 }
