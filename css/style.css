@@ -362,7 +362,7 @@ footer h4 {
 
 }
 
-@media (max-width : 768px) {
+@media (max-width : 767px) {
 
     .toggle-btn {
         display: block;
@@ -461,5 +461,54 @@ footer h4 {
     .main-text {
     top: 45%;
     left: 20%;
+}
+.about{
+    display: block;
+    width: 100%;
+}
+
+.about img,
+.about p{
+    width: 100%;
+}
+
+.about img{
+    margin-bottom: 30px;
+}
+
+.menu-item{
+    display: block;
+}
+
+.concept-item1{
+    display: block;
+}
+
+.concept-item1 img,
+.concept-item2 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.concept-item1 p,
+.concept-item2 p{
+    max-width: 100%;
+}
+
+.concept-item2{
+    flex-direction: column-reverse;
+}
+
+.store-access {
+    display: block;
+}
+
+.access-map {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.access-info {
+    width: 100%;
 }
 }
